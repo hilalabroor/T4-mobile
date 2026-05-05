@@ -12,7 +12,7 @@ Aplikasi manajemen data mahasiswa berbasis Android yang dibangun menggunakan bah
 
 1. **Halaman Login (`LoginActivity`)**
    Halaman awal aplikasi. Memiliki fitur "Remember Me" agar user tidak perlu login berulang kali.
-    <img width="383" height="845" alt="image" src="https://github.com/user-attachments/assets/d6ba57bb-0e1b-4168-b6f7-9264f7606630" 
+    <img width="383" height="845" alt="image" src="https://github.com/user-attachments/assets/d6ba57bb-0e1b-4168-b6f7-9264f7606630" />
      <img width="375" height="839" alt="image" src="https://github.com/user-attachments/assets/1bc033d3-ceb9-45d6-a455-04bfae3d073b" />
      <img width="381" height="837" alt="image" src="https://github.com/user-attachments/assets/38a23418-2533-41cb-8884-24fc9ef84bf5" />
 
