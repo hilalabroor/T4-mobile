@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Tambah Mahasiswa"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Nama"
+                android:background="@android:drawable/edit_text"
+                android:paddingStart="16dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/etNim"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="NIM"
+                android:background="@android:drawable/edit_text"
+                android:paddingStart="16dp"
+                android:inputType="number"
+                android:layout_marginBottom="16dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerProdi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:background="@android:drawable/edit_text"
+                android:paddingStart="16dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/etSemester"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Semester"
+                android:background="@android:drawable/edit_text"
+                android:paddingStart="16dp"
+                android:inputType="number"
+                android:layout_marginBottom="32dp"/>
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="SIMPAN"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:backgroundTint="#3F51B5" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
